@@ -111,8 +111,8 @@ int main() {
     glewInit();
 
     GLuint shaderProgram = createShaderProgram(
-        "../vertex.glsl",
-        "../fragment.glsl"
+        "../triangle/vertex.glsl",
+        "../triangle/fragment.glsl"
     );
 
     if (shaderProgram == 0) {

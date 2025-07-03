@@ -9,8 +9,8 @@ find_package(glm REQUIRED)
 
 find_package(OpenGL REQUIRED)
 
-add_executable(testgl main.cpp.old
-        main.cpp
+add_executable(testgl
+        src/mathfunc/main.cpp
 )
 
 target_link_libraries( testgl
